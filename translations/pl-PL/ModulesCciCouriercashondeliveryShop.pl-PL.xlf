@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2"><file original="modules/cci_couriercashondelivery" source-language="en-US" target-language="pl-PL" datatype="plaintext"><body>
+<trans-unit id="cci_couriercashondelivery_shop_0"><source>Courier cash on delivery</source><target>Płatność za pobraniem - zapłać u kuriera</target></trans-unit>
+<trans-unit id="cci_couriercashondelivery_shop_1"><source>Pay the courier when your order arrives.</source><target>Zapłać gotówką przy odbiorze</target></trans-unit>
+</body></file></xliff>

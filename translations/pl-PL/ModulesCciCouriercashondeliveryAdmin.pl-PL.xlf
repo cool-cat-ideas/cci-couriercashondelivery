@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="modules/cci_couriercashondelivery" source-language="en-US" target-language="pl-PL" datatype="plaintext">
+    <body>
+      <trans-unit id="cci_couriercashondelivery_admin_1">
+        <source>CCI Courier Cash on Delivery</source>
+        <target>CCI Courier Cash on Delivery</target>
+      </trans-unit>
+      <trans-unit id="cci_couriercashondelivery_admin_2">
+        <source>Offer courier cash on delivery for selected existing carriers.</source>
+        <target>Ustaw płatność za pobraniem osobno dla wybranych kurierów.</target>
+      </trans-unit>
+      <trans-unit id="cci_couriercashondelivery_admin_3">
+        <source>Are you sure you want to uninstall the courier cash-on-delivery module?</source>
+        <target>Czy na pewno chcesz odinstalować moduł płatności za pobraniem u kuriera?</target>
+      </trans-unit>
+      <trans-unit id="cci_couriercashondelivery_admin_5">
+        <source>This module is only a fraction of what we do. We deliver custom IT solutions that grow with your business. We ensure complete code optimization and security.</source>
+        <target>Ten moduł to tylko ułamek tego, co robimy. Tworzymy rozwiązania IT, które można rozwijać razem z Twoją firmą. Dbamy o szybkość i bezpieczeństwo kodu.</target>
+      </trans-unit>
+      <trans-unit id="cci_couriercashondelivery_admin_6">
+        <source>We implement and develop:</source>
+        <target>Wdrażamy i rozwijamy:</target>
+      </trans-unit>
+      <trans-unit id="cci_couriercashondelivery_admin_7">
+        <source>Fast e-commerce on %highlight% (from implementations to custom modules)</source>
+        <target>Szybki e-commerce na %highlight% (od wdrożeń po własne wtyczki)</target>
+      </trans-unit>
+      <trans-unit id="cci_couriercashondelivery_admin_8">
+        <source>Flexible and modern %highlight% websites</source>
+        <target>Elastyczne i nowoczesne strony %highlight%</target>
+      </trans-unit>
+      <trans-unit id="cci_couriercashondelivery_admin_9">
+        <source>Scalable web applications in %highlight%</source>
+        <target>Skalowalne aplikacje webowe w %highlight%</target>
+      </trans-unit>
+      <trans-unit id="cci_couriercashondelivery_admin_10">
+        <source>Process automation and %highlight%</source>
+        <target>Automatyzację procesów i %highlight%</target>
+      </trans-unit>
+      <trans-unit id="cci_couriercashondelivery_admin_11">
+        <source>API integrations</source>
+        <target>Integracje API</target>
+      </trans-unit>
+      <trans-unit id="cci_couriercashondelivery_admin_13">
+        <source>See our offer</source>
+        <target>Zobacz naszą ofertę</target>
+      </trans-unit>
+      <trans-unit id="cci_couriercashondelivery_admin_brand_about_us">
+        <source>About us</source>
+        <target>O nas</target>
+      </trans-unit>
+      <trans-unit id="cci_couriercashondelivery_carrier_0"><source>A separate payment method for courier cash-on-delivery orders.</source><target>Osobna metoda płatności dla zamówień wysyłanych kurierem za pobraniem.</target></trans-unit>
+      <trans-unit id="cci_couriercashondelivery_carrier_1"><source>Carriers offering cash on delivery</source><target>Przewoźnicy obsługujący pobranie</target></trans-unit>
+      <trans-unit id="cci_couriercashondelivery_carrier_2"><source>For selected carriers, courier cash on delivery replaces the standard cash-on-delivery option.</source><target>Dla zaznaczonych przewoźników standardowa płatność przy odbiorze zostanie zastąpiona płatnością za pobraniem u kuriera.</target></trans-unit>
+      <trans-unit id="cci_couriercashondelivery_carrier_3"><source>Carrier reference: %reference%</source><target>Referencja przewoźnika: %reference%</target></trans-unit>
+      <trans-unit id="cci_couriercashondelivery_carrier_4"><source>Courier payment settings</source><target>Ustawienia płatności kurierskiej</target></trans-unit>
+    </body>
+  </file>
+</xliff>
