@@ -10,5 +10,5 @@
     "format:check": "node scripts/quality/format.mjs --check",
     "package:presta": "node scripts/build-release.mjs"
   },
-  "version": "1.0.0"
+  "version": "1.0.1"
 }

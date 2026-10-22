@@ -32,7 +32,7 @@ class Cci_Couriercashondelivery extends PaymentModule
     {
         $this->name = 'cci_couriercashondelivery';
         $this->tab = 'payments_gateways';
-        $this->version = '1.0.0';
+        $this->version = '1.0.1';
         $this->author = 'Cool Cat Ideas';
         $this->need_instance = 0;
         $this->bootstrap = true;
@@ -160,6 +160,27 @@ class Cci_Couriercashondelivery extends PaymentModule
         return (int) Configuration::get(self::CONFIG_ORDER_STATE);
     }
 
+    private function canSaveAdminSettings(): bool
+    {
+        if (($_SERVER['REQUEST_METHOD'] ?? '') !== 'POST'
+            || !Validate::isLoadedObject($this->context->employee)
+            || !$this->context->employee->hasAuthOnShop((int) $this->context->shop->id)) {
+            return false;
+        }
+        $controller = $this->context->controller;
+        if ($controller instanceof AdminController) {
+            return $controller->access('edit') && $controller->checkToken();
+        }
+        // The module manager in PrestaShop 9 uses a Symfony legacy context.
+        if (!$controller instanceof \PrestaShop\PrestaShop\Core\Context\LegacyControllerContext
+            || !$this->getPermission('configure')) {
+            return false;
+        }
+        $container = \PrestaShop\PrestaShop\Adapter\SymfonyContainer::getInstance();
+        return $container !== null
+            && $container->get(\PrestaShopBundle\Security\Admin\UserTokenManager::class)->isTokenValid();
+    }
+
     public function getContent(): string
     {
         $this->ensureAdminTab();
@@ -167,6 +188,11 @@ class Cci_Couriercashondelivery extends PaymentModule
         $output = '';
 
         if (Tools::isSubmit('submitCciCourierCashOnDelivery')) {
+            if (!$this->canSaveAdminSettings()) {
+                http_response_code(403);
+                return $this->displayError($this->l('You do not have permission to change these settings.'));
+            }
+
             $output .= $this->saveConfiguration();
         }
 

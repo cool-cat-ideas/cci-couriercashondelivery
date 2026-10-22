@@ -2,7 +2,7 @@
 <module>
     <name>cci_couriercashondelivery</name>
     <displayName><![CDATA[CCI Courier Cash on Delivery]]></displayName>
-    <version><![CDATA[1.0.0]]></version>
+    <version><![CDATA[1.0.1]]></version>
     <description><![CDATA[Ustaw płatność za pobraniem osobno dla wybranych kurierów.]]></description>
     <author><![CDATA[Cool Cat Ideas]]></author>
     <tab><![CDATA[payments_gateways]]></tab>
