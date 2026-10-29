@@ -10,7 +10,7 @@ Download the module ZIP from the [Cool Cat Ideas product page](https://coolcatid
 
 ## Set it up
 
-1. Install `cci_couriercashondelivery-1.0.0.zip` in **Modules > Module Manager**.
+1. Download the current CCI Courier Cash on Delivery ZIP from the product page and install it in **Modules > Module Manager**.
 2. Open **Cool Cat Ideas > CCI Courier Cash on Delivery**.
 3. Turn on every carrier that should collect payment at the door.
 4. Save the settings.
