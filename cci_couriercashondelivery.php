@@ -40,7 +40,7 @@ class Cci_Couriercashondelivery extends PaymentModule
         $this->currencies = false;
         $this->ps_versions_compliancy = [
             'min' => '8.0.0',
-            'max' => '9.2.0',
+            'max' => '9.2.999',
         ];
 
         parent::__construct();
