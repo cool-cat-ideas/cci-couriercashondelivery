@@ -33,3 +33,4 @@ Thumbs.db
 /playwright-report/
 /blob-report/
 /tmp-*
+/release/packages/
